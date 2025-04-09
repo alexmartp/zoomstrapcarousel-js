@@ -55,10 +55,10 @@ A lightweight JavaScript library that adds zoom functionality to Bootstrap carou
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
   // Basic initialization
-  new BootstrapZoomCarousel();
+  new ZoomStrapCarousel();
   
   // OR with options
-  new BootstrapZoomCarousel({
+  new ZoomStrapCarousel({
     carouselSelector: '#product-carousel',
     zoomFactor: 2.0,
     animationDuration: 200
@@ -103,7 +103,7 @@ You can also configure the behavior using data attributes on your carousel eleme
 
 ```javascript
 // Get the instance
-const zoomCarousel = new BootstrapZoomCarousel({
+const zoomCarousel = new ZoomStrapCarousel({
   carouselSelector: '#product-carousel'
 });
 
@@ -130,7 +130,7 @@ document.querySelector('#product-carousel').addEventListener('zoommodeexited', f
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 
