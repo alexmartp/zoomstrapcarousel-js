@@ -19,7 +19,7 @@ A lightweight JavaScript library that adds zoom functionality to Bootstrap carou
 ### Via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/alexmartp/zoomstrapcarousel-js/zoomstrap-carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alexmartp/zoomstrapcarousel-js@1.0.0/dist/zoomstrap-carousel.min.js"></script>
 ```
 
 ## Basic Usage
